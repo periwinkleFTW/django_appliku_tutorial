@@ -274,6 +274,6 @@ POST_OFFICE = {
 
 # AWS SES Settings
 
-AWS_SES_REGION_NAME = env('AWS_SES_REGION_NAME', default='us-east-1')
-AWS_SES_REGION_ENDPOINT = env('AWS_SES_REGION_ENDPOINT', default='email.us-east-1.amazonaws.com')
+AWS_SES_REGION_NAME = env('AWS_SES_REGION_NAME', default='ca-central-1')
+AWS_SES_REGION_ENDPOINT = env('AWS_SES_REGION_ENDPOINT', default='email.ca-central-1.amazonaws.com')
 AWS_SES_CONFIGURATION_SET = env('AWS_SES_CONFIGURATION_SET', default=None)
