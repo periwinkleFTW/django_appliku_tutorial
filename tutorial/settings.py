@@ -228,8 +228,8 @@ AUTHENTICATION_BACKENDS += [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
-ACCOUNT_ADAPTER = 'usermodel.adapters.MyAccountAdapter'
-SOCIALACCOUNT_ADAPTER = 'usermodel.adapters.MySocialAccountAdapter'
+# ACCOUNT_ADAPTER = 'usermodel.adapters.MyAccountAdapter'
+# SOCIALACCOUNT_ADAPTER = 'usermodel.adapters.MySocialAccountAdapter'
 ACCOUNT_USER_MODEL_USERNAME_FIELD = None
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_USERNAME_REQUIRED = False
